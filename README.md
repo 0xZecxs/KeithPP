@@ -219,25 +219,13 @@ To avoid excessive changes:
 
 When FFmpeg completes, Keith++ increases the 7-Zip CPU quota to 100%.
 
-## 8. Installation and Configuration
+## 8. Configuration
 
-### Step 1: Clone the repository
-
-Open a terminal and execute:
-
-```bash
-git clone <REPOSITORY_URL>
-```
-
-Replace `<REPOSITORY_URL>` with the actual GitHub repository URL.
-
-Alternatively, download the repository from GitHub.
-
-### Step 2: Open the project
+### Open the project
 
 Open the Visual Studio solution file (`.sln`) included in the repository.
 
-### Step 3: Configure Visual Studio
+### Configure Visual Studio
 
 Select:
 
@@ -245,13 +233,13 @@ Select:
 - C++ Language Standard: ISO C++20.
 - Configuration: Debug or Release.
 
-### Step 4: Install dependencies
+### Install dependencies
 
 Install FFmpeg and 7-Zip.
 
 Verify that both executables are available.
 
-### Step 5: Configure executable paths
+### Configure executable paths
 
 Open `main.cpp`.
 
@@ -280,7 +268,7 @@ const std::wstring inputFile =
 
 These are example paths. Use the actual locations of the files on your system.
 
-### Step 6: Build the project
+### Build the project
 
 In Visual Studio:
 
@@ -289,7 +277,7 @@ In Visual Studio:
 3. Select Build > Build Solution.
 4. Confirm that compilation finishes successfully.
 
-### Step 7: Run Keith++
+### Run Keith++
 
 Execute the application using Visual Studio.
 
@@ -409,38 +397,7 @@ For a better understanding of the project, the recommended reading order is:
 4. `KeithWatch` — Understand CPU measurements.
 5. `KeithExperiment` — Analyze process execution and adaptive control.
 
-Important concepts to review:
 
-- Windows processes and threads.
-- Scheduling priorities.
-- Process handles.
-- CPU utilization.
-- Windows Job Objects.
-- CPU hard caps.
-- Adaptive feedback control.
-- Experimental performance evaluation.
-
-## 13. Important Notes
-
-- Keith++ is an academic experimental project.
-- Results may vary between computers.
-- Process priority changes do not guarantee performance improvements.
-- CPU hard caps restrict the execution capacity of the target workload.
-- The application uses Windows user-space APIs.
-- Keith++ does not implement a custom kernel scheduler.
-- Python is only needed for optional analysis and visualization of experimental results.
-
-## 14. Conclusion
-
-Keith++ successfully demonstrates how Windows CPU management mechanisms can be controlled and evaluated through C++20 and the Win32 API.
-
-The project implements process priority modification, CPU restrictions through Job Objects, and adaptive resource management.
-
-Although the implemented policies improved FFmpeg performance under certain conditions, none achieved a lower average makespan than Windows Default in the final experiments.
-
-The project illustrates the trade-off between prioritizing an individual application and maximizing overall workload performance.
 
 ---
 
-**Keith++ — Operating Systems**  
-**Universidad del Rosario — 2026**
