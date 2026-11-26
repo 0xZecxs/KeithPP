@@ -1,0 +1,26 @@
+
+7-Zip 26.06 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-11-06
+
+ mt8 d22
+Compiler:  MSC 1400.140040310
+Windows 10.0 26200 : Microsoft Hv : Hv#1 : 10.0.26100.9.0.9974
+x64 6.C602 threads:24 128TB f:300005F310C2774C
+Intel(R) Core(TM) Ultra 9 275HX
+(C0662 : Intel64 Family 6 Model 198 Stepping 2) (->) 3072 MHz
+
+1T CPU Freq (MHz):  5144  5181  5178  5261  5311  5314  5232
+4T CPU Freq (MHz): 406% 5112   390% 5057  
+8T CPU Freq (MHz): 779% 4907   802% 4868  
+
+RAM size:   32189 MB,  # CPU hardware threads:  24
+RAM usage:    260 MB,  # Benchmark threads:      8
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:      80339   787   9930  78154  |     850628   795   9129  72535
+22:      84971   811  10190  82661  |     831786   777   9129  70928
+----------------------------------  | ------------------------------
+Avr:     82655   799  10060  80407  |     841207   786   9129  71732
+Tot:             792   9594  76069

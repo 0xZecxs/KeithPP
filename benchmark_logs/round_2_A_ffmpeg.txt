@@ -1,0 +1,51 @@
+ffmpeg version 9.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 16.2.0 (Rev6, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-libcurl --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-vapoursynth --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-liblcevc-dec --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libastcenc --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libopencolorio --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      61. 19.100 / 61. 19.100
+  libavcodec     63. 24.100 / 63. 24.100
+  libavformat    63. 16.100 / 63. 16.100
+  libavdevice    63.  5.100 / 63.  5.100
+  libavfilter    12.  8.100 / 12.  8.100
+  libswscale     10.  5.100 / 10.  5.100
+  libswresample   7.  6.100 /  7.  6.100
+Input #0, avi, from 'C:\Users\usuario\KeithBench\input.avi':
+  Metadata:
+    software        : Lavf63.16.100
+  Duration: 00:01:00.00, start: 0.000000, bitrate: 6610 kb/s
+  Stream #0:0: Video: mpeg4 (Simple Profile) (FMP4 / 0x34504D46), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 6607 kb/s, 30 fps, 30 tbr, 30 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg4 (native) -> h264 (libx264))
+[libx264 @ 0000015f866993c0] using SAR=1/1
+[libx264 @ 0000015f866993c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000015f866993c0] profile High, level 3.1, 4:2:0, 8-bit
+Output #0, null, to 'NUL':
+  Metadata:
+    software        : Lavf63.16.100
+    encoder         : Lavf63.16.100
+  Stream #0:0: Video: h264, yuv420p(tv, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbn
+    Metadata:
+      encoder         : Lavc63.24.100 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  221 fps=0.0 q=29.0 size=N/A time=00:00:07.30 bitrate=N/A speed=14.4x elapsed=0:00:00.50    frame=  482 fps=476 q=29.0 size=N/A time=00:00:16.00 bitrate=N/A speed=15.8x elapsed=0:00:01.01    frame=  744 fps=491 q=29.0 size=N/A time=00:00:24.73 bitrate=N/A speed=16.3x elapsed=0:00:01.51    frame= 1005 fps=497 q=29.0 size=N/A time=00:00:33.43 bitrate=N/A speed=16.5x elapsed=0:00:02.02    frame= 1270 fps=501 q=29.0 size=N/A time=00:00:42.26 bitrate=N/A speed=16.7x elapsed=0:00:02.53    frame= 1531 fps=503 q=29.0 size=N/A time=00:00:50.96 bitrate=N/A speed=16.8x elapsed=0:00:03.04    frame= 1759 fps=496 q=29.0 size=N/A time=00:00:58.56 bitrate=N/A speed=16.5x elapsed=0:00:03.54    frame= 1995 fps=493 q=29.0 size=N/A time=00:01:06.43 bitrate=N/A speed=16.4x elapsed=0:00:04.04    frame= 2251 fps=495 q=29.0 size=N/A time=00:01:14.96 bitrate=N/A speed=16.5x elapsed=0:00:04.54    frame= 2503 fps=495 q=29.0 size=N/A time=00:01:23.36 bitrate=N/A speed=16.5x elapsed=0:00:05.05    frame= 2773 fps=498 q=29.0 size=N/A time=00:01:32.36 bitrate=N/A speed=16.6x elapsed=0:00:05.56    frame= 3040 fps=500 q=29.0 size=N/A time=00:01:41.26 bitrate=N/A speed=16.6x elapsed=0:00:06.08    frame= 3315 fps=502 q=29.0 size=N/A time=00:01:50.43 bitrate=N/A speed=16.7x elapsed=0:00:06.59    frame= 3587 fps=504 q=29.0 size=N/A time=00:01:59.50 bitrate=N/A speed=16.8x elapsed=0:00:07.11    frame= 3844 fps=505 q=29.0 size=N/A time=00:02:08.06 bitrate=N/A speed=16.8x elapsed=0:00:07.61    frame= 4105 fps=506 q=29.0 size=N/A time=00:02:16.76 bitrate=N/A speed=16.8x elapsed=0:00:08.11    frame= 4366 fps=506 q=29.0 size=N/A time=00:02:25.46 bitrate=N/A speed=16.8x elapsed=0:00:08.63    frame= 4626 fps=506 q=29.0 size=N/A time=00:02:34.13 bitrate=N/A speed=16.9x elapsed=0:00:09.13    frame= 4889 fps=507 q=29.0 size=N/A time=00:02:42.90 bitrate=N/A speed=16.9x elapsed=0:00:09.63    frame= 5150 fps=508 q=29.0 size=N/A time=00:02:51.60 bitrate=N/A speed=16.9x elapsed=0:00:10.14    frame= 5418 fps=509 q=29.0 size=N/A time=00:03:00.53 bitrate=N/A speed=  17x elapsed=0:00:10.64    frame= 5686 fps=510 q=29.0 size=N/A time=00:03:09.46 bitrate=N/A speed=  17x elapsed=0:00:11.15    frame= 5953 fps=511 q=29.0 size=N/A time=00:03:18.36 bitrate=N/A speed=  17x elapsed=0:00:11.65    frame= 6216 fps=511 q=29.0 size=N/A time=00:03:27.13 bitrate=N/A speed=  17x elapsed=0:00:12.15    frame= 6485 fps=512 q=29.0 size=N/A time=00:03:36.10 bitrate=N/A speed=17.1x elapsed=0:00:12.66    frame= 6752 fps=512 q=29.0 size=N/A time=00:03:45.00 bitrate=N/A speed=17.1x elapsed=0:00:13.17    frame= 7027 fps=513 q=29.0 size=N/A time=00:03:54.16 bitrate=N/A speed=17.1x elapsed=0:00:13.69    frame= 7294 fps=514 q=29.0 size=N/A time=00:04:03.06 bitrate=N/A speed=17.1x elapsed=0:00:14.19    frame= 7565 fps=514 q=29.0 size=N/A time=00:04:12.10 bitrate=N/A speed=17.1x elapsed=0:00:14.71    frame= 7843 fps=515 q=29.0 size=N/A time=00:04:21.36 bitrate=N/A speed=17.2x elapsed=0:00:15.22    frame= 8104 fps=515 q=29.0 size=N/A time=00:04:30.06 bitrate=N/A speed=17.2x elapsed=0:00:15.72    frame= 8380 fps=516 q=29.0 size=N/A time=00:04:39.26 bitrate=N/A speed=17.2x elapsed=0:00:16.24    frame= 8643 fps=516 q=29.0 size=N/A time=00:04:48.03 bitrate=N/A speed=17.2x elapsed=0:00:16.74    frame= 8892 fps=516 q=29.0 size=N/A time=00:04:56.33 bitrate=N/A speed=17.2x elapsed=0:00:17.24    frame= 9157 fps=516 q=29.0 size=N/A time=00:05:05.16 bitrate=N/A speed=17.2x elapsed=0:00:17.75    frame= 9427 fps=516 q=29.0 size=N/A time=00:05:14.16 bitrate=N/A speed=17.2x elapsed=0:00:18.25    frame= 9701 fps=517 q=29.0 size=N/A time=00:05:23.30 bitrate=N/A speed=17.2x elapsed=0:00:18.76    frame= 9967 fps=517 q=29.0 size=N/A time=00:05:32.16 bitrate=N/A speed=17.2x elapsed=0:00:19.26    frame=10229 fps=517 q=29.0 size=N/A time=00:05:40.90 bitrate=N/A speed=17.2x elapsed=0:00:19.77    frame=10500 fps=518 q=29.0 size=N/A time=00:05:49.93 bitrate=N/A speed=17.2x elapsed=0:00:20.28    frame=10775 fps=518 q=29.0 size=N/A time=00:05:59.10 bitrate=N/A speed=17.3x elapsed=0:00:20.80    [out#0/null @ 0000015f865f7200] video:135820KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=10800 fps=518 q=-1.0 Lsize=N/A time=00:05:59.93 bitrate=N/A speed=17.3x elapsed=0:00:20.84    
+bench: utime=181.141s stime=6.047s rtime=20.841s
+bench: maxrss=463056KiB
+[libx264 @ 0000015f866993c0] frame I:44    Avg QP:12.82  size: 33501
+[libx264 @ 0000015f866993c0] frame P:4686  Avg QP:22.58  size: 16500
+[libx264 @ 0000015f866993c0] frame B:6070  Avg QP:28.54  size:  9932
+[libx264 @ 0000015f866993c0] consecutive B-frames:  9.4% 30.5% 49.6% 10.6%
+[libx264 @ 0000015f866993c0] mb I  I16..4: 63.8% 30.3%  5.9%
+[libx264 @ 0000015f866993c0] mb P  I16..4:  1.1%  4.8%  1.0%  P16..4:  7.8%  4.3%  2.4%  0.0%  0.0%    skip:78.7%
+[libx264 @ 0000015f866993c0] mb B  I16..4:  0.2%  0.5%  0.3%  B16..8: 10.5%  2.1%  0.6%  direct: 1.5%  skip:84.4%  L0:53.0% L1:36.2% BI:10.8%
+[libx264 @ 0000015f866993c0] 8x8 transform intra:62.7% inter:62.5%
+[libx264 @ 0000015f866993c0] coded y,uvDC,uvAC intra: 20.0% 38.8% 36.3% inter: 3.6% 8.0% 6.9%
+[libx264 @ 0000015f866993c0] i16 v,h,dc,p: 80% 17%  3%  1%
+[libx264 @ 0000015f866993c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  6% 11% 77%  1%  0%  0%  1%  1%  2%
+[libx264 @ 0000015f866993c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18% 26% 33%  4%  2%  3%  3%  3%  6%
+[libx264 @ 0000015f866993c0] i8c dc,h,v,p: 64% 15% 17%  4%
+[libx264 @ 0000015f866993c0] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0000015f866993c0] ref P L0: 48.4%  7.7% 26.1% 17.7%
+[libx264 @ 0000015f866993c0] ref B L0: 78.4% 18.0%  3.6%
+[libx264 @ 0000015f866993c0] ref B L1: 99.0%  1.0%
+[libx264 @ 0000015f866993c0] kb/s:3090.66

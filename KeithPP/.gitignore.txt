@@ -1,0 +1,27 @@
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Compilation outputs
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+
+# Temporary benchmark files
+benchmark_logs/
+benchmark_logs_v08/
+
+# Temporary files
+*.tmp
+*.log
