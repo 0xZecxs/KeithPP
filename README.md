@@ -387,15 +387,7 @@ Output locations depend on the working directory configured in Visual Studio.
 
 Existing result files may be overwritten by new experimental executions. Preserve the original datasets before rerunning benchmarks.
 
-## 12. Studying the Source Code
 
-For a better understanding of the project, the recommended reading order is:
-
-1. `main.cpp` — Understand the experimental scenarios.
-2. `KeithBench` — Review benchmark configurations.
-3. `KeithCore` — Study process priorities and CPU restrictions.
-4. `KeithWatch` — Understand CPU measurements.
-5. `KeithExperiment` — Analyze process execution and adaptive control.
 
 
 
